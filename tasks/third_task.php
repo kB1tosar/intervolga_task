@@ -19,9 +19,3 @@ for ($i = 0; $i < 100; $i++) {
 }
 
 $count_of_all_double_number = seacrh_of_repeat_number($array);
-
-foreach ($array as $value) {
-    echo $value . ", ";
-}
-echo('<br>');
-echo $count_of_all_double_number;
