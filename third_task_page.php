@@ -1,14 +1,7 @@
+<title>Третье задание</title>
 <? include('tasks/third_task.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <? include('front.php'); ?>
-    <title>Третье задание</title>
-</head>
-<body>
 <? include('header.php'); ?>
-<div class="indents_body">
+<div class="container indents">
     <h1>Третье задание </h1>
     <h2>Массивы</h2>
     <p>Дан массив из 100 элементов. Требуется вывести количество
@@ -23,5 +16,3 @@
     <p><? echo $count_of_all_double_number; ?></p>
 </div>
 <? include('footer.php'); ?>
-</body>
-</html>

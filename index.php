@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <? include('front.php'); ?>
-</head>
-<body>
-    <? include('header.php'); ?>
+<title>Главная</title>
+<? include('header.php'); ?>
+<div class="container indents">
     <h1>hello world</h1>
-<!--    --><?// include ('')?>
-    <? include('footer.php'); ?>
-</body>
-</html>
+</div>
+<? include('footer.php'); ?>

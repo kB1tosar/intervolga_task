@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <? include('front.php'); ?>
-    <title>Второе задание</title>
-</head>
-<body>
+<title>Второе задание</title>
 <? include('header.php'); ?>
-<div class="indents_body">
+<div class="container indents">
     <h1>Второе задание</h1>
     <h2>БД</h2>
     <p>На какой вопрос (сформулируйте по-русски) отвечает запрос:<br>
@@ -25,5 +18,3 @@
     </p>
 </div>
 <? include('footer.php'); ?>
-</body>
-</html>

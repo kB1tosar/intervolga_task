@@ -1,9 +1,4 @@
-.indents_all{
-    padding-left: 250px;
-    padding-right: 250px;
-}
-
-.indents_body{
-    padding-right: 300px;
-    padding-left: 300px;
+.indents {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
