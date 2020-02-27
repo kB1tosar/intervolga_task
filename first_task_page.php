@@ -1,4 +1,3 @@
-<title>Первое задание</title>
 <? include('header.php'); ?>
 <div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Первое задание</h1>

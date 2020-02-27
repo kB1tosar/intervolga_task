@@ -1,4 +1,3 @@
-<title>Третье задание</title>
 <? include('tasks/third_task.php'); ?>
 <? include('header.php'); ?>
 <div class="container mt-5 mb-5 pt-3 pb-3">
