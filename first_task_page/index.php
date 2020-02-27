@@ -1,4 +1,4 @@
-<? require($_SERVER['DOCUMENT_ROOT'].'/templates/header.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php'); ?>
 <div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Первое задание</h1>
     <h2>Мозги + PHP</h2>
