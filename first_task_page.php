@@ -1,6 +1,6 @@
 <title>Первое задание</title>
 <? include('header.php'); ?>
-<div class="container indents">
+<div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Первое задание</h1>
     <h2>Мозги + PHP</h2>
     <p>На диске лежит файл image.png, размер 20000 на 20000 точек. Вывести

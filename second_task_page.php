@@ -1,6 +1,6 @@
 <title>Второе задание</title>
 <? include('header.php'); ?>
-<div class="container indents">
+<div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Второе задание</h1>
     <h2>БД</h2>
     <p>На какой вопрос (сформулируйте по-русски) отвечает запрос:<br>

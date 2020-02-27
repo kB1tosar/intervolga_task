@@ -1,7 +1,7 @@
 <title>Третье задание</title>
 <? include('tasks/third_task.php'); ?>
 <? include('header.php'); ?>
-<div class="container indents">
+<div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Третье задание </h1>
     <h2>Массивы</h2>
     <p>Дан массив из 100 элементов. Требуется вывести количество
