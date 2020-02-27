@@ -1,0 +1,20 @@
+{
+  "data_title": {
+    "0": {
+      "title": "Главная",
+      "path": "/index.php"
+    },
+    "1": {
+      "title": "Первое задание",
+      "path": "/first_task_page.php"
+    },
+    "2": {
+      "title": "Второе задание",
+      "path": "/second_task_page.php"
+    },
+    "3": {
+      "title": "Третье задание",
+      "path": "/third_task_page.php"
+    }
+  }
+}
