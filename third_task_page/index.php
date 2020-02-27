@@ -1,5 +1,5 @@
-<? include('tasks/third_task.php'); ?>
-<? include('header.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/includes/third_task.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php'); ?>
 <div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Третье задание </h1>
     <h2>Массивы</h2>
@@ -35,4 +35,4 @@ for ($i = 0; $i < 100; $i++) {
 
 $count_of_all_double_number = seacrh_of_repeat_number($array);</pre>
 </div>
-<? include('footer.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php'); ?>

@@ -1,4 +1,4 @@
-<? include('header.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/header.php'); ?>
 <div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Второе задание</h1>
     <h2>БД</h2>
@@ -16,4 +16,4 @@
         где category.name равна "Планшеты"
     </p>
 </div>
-<? include('footer.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php'); ?>

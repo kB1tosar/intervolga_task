@@ -6,15 +6,15 @@
     },
     "1": {
       "title": "Первое задание",
-      "path": "/first_task_page.php"
+      "path": "/first_task_page/index.php"
     },
     "2": {
       "title": "Второе задание",
-      "path": "/second_task_page.php"
+      "path": "/second_task_page/index.php"
     },
     "3": {
       "title": "Третье задание",
-      "path": "/third_task_page.php"
+      "path": "/third_task_page/index.php"
     }
   }
 }

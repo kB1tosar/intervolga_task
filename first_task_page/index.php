@@ -1,4 +1,4 @@
-<? include('header.php'); ?>
+<? require($_SERVER['DOCUMENT_ROOT'].'/templates/header.php'); ?>
 <div class="container mt-5 mb-5 pt-3 pb-3">
     <h1>Первое задание</h1>
     <h2>Мозги + PHP</h2>
@@ -18,7 +18,7 @@ $new_height = 100;
 
 $new_image = imagescale($image, $new_width, $new_height);
 imagejpeg($new_image, null, 100);</pre>
-    <img src="tasks/first_task.php" class="img-thumbnail rounded mx-auto d-block">
+    <img src="/templates/includes/first_task.php" class="img-thumbnail rounded mx-auto d-block">
     <hr>
     <h4>Второй вариант решения:</h4>
     <pre>$filename = __DIR__ . '/picture.jpg';
@@ -46,6 +46,6 @@ imagecopyresampled(
 
 imagejpeg($new_image, null, 100);
 </pre>
-    <img src="tasks/first_task_second.php" class="img-thumbnail rounded mx-auto d-block">
+    <img src="/templates/includes/first_task_second.php" class="img-thumbnail rounded mx-auto d-block">
 </div>
-<? include('footer.php'); ?>
+<? include($_SERVER['DOCUMENT_ROOT'].'/templates/footer.php'); ?>
