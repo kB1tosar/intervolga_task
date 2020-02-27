@@ -1,14 +1,24 @@
 <?php
+//Здесь происходит изменение размеров картинки вторым спобом
+
+//Берётся нужный файл с картинкой
 $filename = __DIR__ . '/picture.jpg';
 $image = imagecreatefromjpeg($filename);
 
+//С помощью функции getimagesize получаем размеры текущей картинки
 $image_size = getimagesize($filename);
 $width = $image_size[0];
 $height = $image_size[1];
+
+//Задаются новые размеры картинки
 $new_width = 200;
 $new_height = 100;
 
+//С помощью функции imagecreatetruecolor создаётся новое изображение
+//Это нужно для функции imagecopyresampled так как она в новую картинку копируюет с ресэмплированием старую
 $new_image = imagecreatetruecolor($new_width, $new_height);
+
+//С помощью функции imagecopyresampled происходит ихменение размеров картинки
 imagecopyresampled(
     $new_image,
     $image,
@@ -24,5 +34,4 @@ imagecopyresampled(
 
 imagejpeg($new_image, null, 100);
 
-$new_image = imagescale($image, $new_width, $new_height);
-imagejpeg($new_image, null, 100);
+
