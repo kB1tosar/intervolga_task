@@ -14,5 +14,26 @@
     <p><? foreach ($array as $value) echo $value . ", "; ?> </p>
     <h3>Ответ:</h3>
     <p><? echo $count_of_all_double_number; ?></p>
+    <h3>Код:</h3>
+    <pre>function seacrh_of_repeat_number($array)
+{
+    $count_array = count($array);
+    $count_double_number = 0;
+    for ($i = 0; $i < $count_array; $i++) {
+        if ($array[$i] === $array[$i + 1]) {
+            $count_double_number++;
+        }
+    }
+
+    return $count_double_number;
+}
+
+$array = [];
+
+for ($i = 0; $i < 100; $i++) {
+    array_push($array, rand(1, 10));
+}
+
+$count_of_all_double_number = seacrh_of_repeat_number($array);</pre>
 </div>
 <? include('footer.php'); ?>
