@@ -45,9 +45,7 @@ imagecopyresampled(
 );
 
 imagejpeg($new_image, null, 100);
-
-$new_image = imagescale($image, $new_width, $new_height);
-imagejpeg($new_image, null, 100);</pre>
+</pre>
     <img src="tasks/first_task_second.php" class="img-thumbnail rounded mx-auto d-block">
 </div>
 <? include('footer.php'); ?>
