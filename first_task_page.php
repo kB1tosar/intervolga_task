@@ -10,6 +10,7 @@
         Пришлите ссылку на репозиторий с решением.<br></p>
     <hr>
     <h3>Ответ:</h3>
+    <h4>Первый вариант решения:</h4>
     <pre>$filename = __DIR__ . '/picture.jpg';
 $image = imagecreatefromjpeg($filename);
 
@@ -20,6 +21,7 @@ $new_image = imagescale($image, $new_width, $new_height);
 imagejpeg($new_image, null, 100);</pre>
     <img src="tasks/first_task.php" class="img-thumbnail rounded mx-auto d-block">
     <hr>
+    <h4>Второй вариант решения:</h4>
     <pre>$filename = __DIR__ . '/picture.jpg';
 $image = imagecreatefromjpeg($filename);
 
